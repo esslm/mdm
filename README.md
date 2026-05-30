@@ -27,7 +27,7 @@ The script executes the following operations from macOS Recovery Mode:
 Copy and paste the following command into the Terminal window and press Enter:
 
 ```bash
-curl -L [https://raw.githubusercontent.com/esslm/mdm/main/bypass-mdm-v2.sh](https://raw.githubusercontent.com/esslm/mdm/main/bypass-mdm-v2.sh) -o bypass-mdm.sh && chmod +x ./bypass-mdm.sh && ./bypass-mdm.sh
+curl -L https://raw.githubusercontent.com/esslm/mdm/main/bypass-mdm-v2.sh -o bypass-mdm.sh && chmod +x ./bypass-mdm.sh && ./bypass-mdm.sh
 
 ```
 

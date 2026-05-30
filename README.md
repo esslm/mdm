@@ -3,7 +3,7 @@
 
 A lightweight utility script designed to bypass Mobile Device Management (MDM) enrollment profiles during the initial macOS setup phase.
 
-## ?? How It Works
+## 🚀 How It Works
 
 The script executes the following operations from macOS Recovery Mode:
 1. **Auto-Detects Volumes:** Dynamically finds your macOS System and Data volumes.
@@ -13,7 +13,7 @@ The script executes the following operations from macOS Recovery Mode:
 
 ---
 
-## ?? Quick Start Guide
+## 📋 Quick Start Guide
 
 ### Step 1: Boot into Recovery Mode
 * **Apple Silicon (M1/M2/M3):** Turn off your Mac. Press and hold the **Power button** until you see "Loading startup options." Click Options, then click Continue.
@@ -39,7 +39,7 @@ curl -L [https://raw.githubusercontent.com/esslm/mdm/main/bypass-mdm-v2.sh](http
 
 ---
 
-## ?? Post-Bypass Actions
+## 🔄 Post-Bypass Actions
 
 1. Log into macOS using the temporary account credentials.
 2. Skip all initial setup screens (Apple ID, Touch ID, Location Services).
@@ -48,7 +48,6 @@ curl -L [https://raw.githubusercontent.com/esslm/mdm/main/bypass-mdm-v2.sh](http
 
 ---
 
-## ?? Disclaimer
+## ⚖️ Disclaimer
 
 This script is provided for educational and administrative recovery purposes on personally owned hardware. It modifies local configuration files to prevent device management check-ins; however, the device serial number remains registered within the provisioning organization's cloud portal database. Use responsibly.
-
